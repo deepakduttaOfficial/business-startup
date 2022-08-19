@@ -16,6 +16,10 @@
   --dark: #1e1e1e;
   --agentPara: #5b5d60;
 }
+body {
+  max-width: 1600px;
+  margin: auto;
+}
 
 li {
   list-style: none;
@@ -215,10 +219,15 @@ nav {
 
 .agent-box {
   display: flex;
+  flex-wrap: wrap-reverse;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 130px 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .agent-content {
@@ -285,6 +294,7 @@ nav {
 
 .subcribe-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }

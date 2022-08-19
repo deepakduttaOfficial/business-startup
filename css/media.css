@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px) {
+  .header {
+    height: auto;
+  }
+  .nav-list {
+    display: none;
+  }
+  #home {
+    flex-direction: column;
+  }
+  #home > .group-img {
+    width: 100%;
+  }
+  .home-details {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .home-details > p {
+    padding: 30px 10px;
+  }
+  .agent-box {
+    width: 100%;
+  }
+  .agent-img-1,
+  .agent-img-2,
+  .agent-img-3 {
+    width: 100%;
+  }
+  .agent-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 31px;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  #blog {
+    flex-direction: column;
+  }
+  #blog > h1 > br,
+  #blog > p > br {
+    display: none;
+  }
+  #blog > h1,
+  #blog > p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 572px) {
+  .logo_name {
+    margin: 20px auto;
+  }
+}
